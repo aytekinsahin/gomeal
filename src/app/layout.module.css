@@ -1,0 +1,16 @@
+.main{
+    background-color: #F5F5F5;
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    width: 1000px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
