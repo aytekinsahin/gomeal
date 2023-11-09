@@ -1,0 +1,13 @@
+.main{
+    width: 375px;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.LocationSummary{
+    width: 375px;
+    display: flex;
+    align-items: center;
+
+}

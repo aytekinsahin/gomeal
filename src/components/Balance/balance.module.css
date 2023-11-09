@@ -1,0 +1,34 @@
+.Main{
+    width: 375px;
+    height: 165px;
+    background-image: url("../../../public/assets/images/balance_background.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+
+}
+
+.BalanceCard{
+    width: 160px;
+    max-width: 165px;
+    height: 85px;
+    background-color: white;
+    border-radius: 16px;
+    padding-left: 15px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Price{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Title{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
