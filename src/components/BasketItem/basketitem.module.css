@@ -1,0 +1,29 @@
+.main{
+    width: 375px;
+    height: 80px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ProductName{
+    color: black;
+    font-size: 18px;
+}
+
+.Piece{
+    color:gray;
+    font-size: 14px;
+}
+
+.price{
+    margin-left: auto;
+}

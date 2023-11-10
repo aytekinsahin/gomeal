@@ -1,3 +1,25 @@
 .main{
     width: 375px;
+    height: 723px;
+}
+.product{
+    padding-bottom: 40px;
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #DBDBDB;
+}
+
+.totalPrice{
+
+}
+
+.service{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }

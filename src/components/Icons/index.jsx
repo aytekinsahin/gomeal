@@ -9,6 +9,7 @@ import OrderHistory from './svg/orderhistory.svg';
 import Search from './svg/search.svg';
 import Setting from './svg/setting.svg';
 import SettingLeft from './svg/settingleft.svg';
+import RightArrow from './svg/rightarrow.svg';
 
 
 export default function Icon({name,iconColor}){
@@ -35,6 +36,7 @@ export default function Icon({name,iconColor}){
             return  <Setting alt={"Setting"} style={{fill:iconColor}}/>
         case "SettingLeft":
             return  <SettingLeft alt={"Setting"} style={{fill:iconColor}}/>
-
+        case "RightArrow":
+            return  <RightArrow alt={"RightArrow"} style={{fill:iconColor}}/>
     }
 }

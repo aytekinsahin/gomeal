@@ -2,7 +2,15 @@
 export default function Home() {
   return (
     <div>
-      HOME
+      <div>
+        Hello, Mahmut
+      </div>
+      <div>
+        Banner
+      </div>
+      <div>
+        Category
+      </div>
     </div>
   )
 }
