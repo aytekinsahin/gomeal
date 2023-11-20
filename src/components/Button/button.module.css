@@ -46,3 +46,13 @@
     border-color: #F8B602;
     margin-top: 20px;
 }
+
+.Plus{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #F8B602;
+    border-color: #F8B602;
+    font-size: 26px;
+    color: #FFFFFF;
+}

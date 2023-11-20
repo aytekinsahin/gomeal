@@ -1,0 +1,12 @@
+.container{
+    margin-top: 30px;
+}
+.search{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.hello{
+    font-size: 36px;
+    font-weight: bold;
+}

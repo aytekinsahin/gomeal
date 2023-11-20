@@ -1,0 +1,21 @@
+.main{
+display: flex;
+    position: relative;
+
+}
+.input{
+    width: 313px;
+    max-width: 313px;
+    height: 40px;
+    border-radius:16px;
+    border-color: #FFFFFF;
+    padding: 2px 32px 2px 50px;
+    font-size: 18px;
+}
+
+.searchIcon{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+

@@ -1,16 +1,18 @@
-
+import styles from './page.module.css'
+import Search from "@/components/Search/page";
+import HomeBanner from "@/components/HomeBanner";
+import Category from "@/components/Category";
+import Popular from "@/components/Popular";
 export default function Home() {
   return (
-    <div>
-      <div>
-        Hello, Mahmut
+    <div className={styles.container}>
+      <div className={styles.search}>
+        <span className={styles.hello}>Hello, Mahmut</span>
+        <Search/>
       </div>
-      <div>
-        Banner
-      </div>
-      <div>
-        Category
-      </div>
+      <HomeBanner/>
+      <Category/>
+      <Popular/>
     </div>
   )
 }
