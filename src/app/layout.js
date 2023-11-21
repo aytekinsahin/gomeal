@@ -3,7 +3,7 @@ import './globals.css';
 import styles from './layout.module.css'
 import LeftMenu from "@/components/LeftMenu";
 import RightMenu from "@/components/RigthMenu";
-
+import Providers from '../redux/Provider';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+      <Providers>
       <div className={styles.main}>
         <LeftMenu/>
         <div className={styles.content}>
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         </div>
         <RightMenu/>
       </div>
+      </Providers>
       </body>
     </html>
   )
